@@ -15,4 +15,4 @@ jobs:
       url: https://github.com
     steps:
       - name: deploy
-        run: echo "Let's run! test"
+        run: echo "Let's run! test now"
