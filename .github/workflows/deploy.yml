@@ -3,6 +3,8 @@ name: Deployment
 on:
   push:
     branches:
+      - master
+      - test
       - main
 
 jobs:
@@ -13,4 +15,4 @@ jobs:
       url: https://github.com
     steps:
       - name: deploy
-        run: echo "Let's run!"
+        run: echo "Let's run! test now"
